@@ -122,6 +122,11 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 For any questions or feedback, please contact [vishalrajmehra95@gmail.com](mailto:vishalrajmehra95@gmail.com).
 
+![Alt Text](path/to/image)
+
+
+
+
 ---
 
 This version of the `README.md` file now includes the admin credentials, making it easier for others to access the admin interface during development or testing.
