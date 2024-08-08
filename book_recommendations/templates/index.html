@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookHub | Discover Your Next Favorite Book</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/">Book<span>Hub</span></a>
+            </div>
+            <ul>
+                <li><a href="#search-section">Search</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Discover Your Next Favorite Book</h1>
+            <p>Personalized recommendations, curated lists, and more</p>
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <section id="search-section" class="section">
+        <h2>Search for Books</h2>
+        <form id="search-form">
+            <input type="text" id="search-query" placeholder="Search for books..." required>
+            <button type="submit"><i class="fas fa-search"></i> Search</button>
+        </form>
+        <div id="loading" class="hidden">Loading...</div>
+    </section>
+
+    <!-- Book Results Section -->
+    <section id="book-results" class="section"></section>
+
+    <!-- Book Detail Modal -->
+    <div id="book-detail" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Book Details</h2>
+            <div id="book-detail-content">
+                <!-- Book details will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 BookHub. All rights reserved.</p>
+    </footer>
+
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
