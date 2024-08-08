@@ -42,3 +42,90 @@ Access the Application
 
 For Admin
 - Open your browser and navigate to http://127.0.0.1:8000/admin/ to view the application.
+
+
+### 2. API Endpoints
+
+BookViewSet Endpoints
+List All Books
+
+Endpoint: /api/books/
+Method: GET
+Description: Retrieves a list of all books.
+Create a Book
+
+Endpoint: /api/books/
+Method: POST
+Description: Creates a new book entry.
+Retrieve, Update or Delete a Book
+
+Endpoint: /api/books/<int:pk>/
+Method: GET, PUT, PATCH, DELETE
+Description: Retrieves, updates, or deletes a book identified by its primary key (pk).
+Search for Books
+
+Endpoint: /api/books/search/
+Method: GET
+Description: Searches for books using a query parameter q to fetch data from the Google Books API.
+Featured Books
+
+Endpoint: /api/books/featured/
+Method: GET
+Description: Retrieves a list of featured books.
+Book Details
+
+Endpoint: /api/books/<int:pk>/detail/
+Method: GET
+Description: Retrieves detailed information about a specific book using its Google Books API identifier (pk).
+RecommendationViewSet Endpoints
+List All Recommendations
+
+Endpoint: /api/recommendations/
+Method: GET
+Description: Retrieves a list of all recommendations.
+Create a Recommendation
+
+Endpoint: /api/recommendations/
+Method: POST
+Description: Creates a new recommendation.
+Retrieve, Update or Delete a Recommendation
+
+Endpoint: /api/recommendations/<int:pk>/
+Method: GET, PUT, PATCH, DELETE
+Description: Retrieves, updates, or deletes a recommendation identified by its primary key (pk).
+Like a Recommendation
+
+Endpoint: /api/recommendations/<int:pk>/like/
+Method: POST
+Description: Increments the number of likes for a specific recommendation.
+CustomBookDataViewSet Endpoints
+List All Custom Book Data
+
+Endpoint: /api/custombookdata/
+Method: GET
+Description: Retrieves a list of all custom book data entries.
+Create Custom Book Data
+
+Endpoint: /api/custombookdata/
+Method: POST
+Description: Creates a new custom book data entry.
+Retrieve, Update or Delete Custom Book Data
+
+Endpoint: /api/custombookdata/<int:pk>/
+Method: GET, PUT, PATCH, DELETE
+Description: Retrieves, updates, or deletes a custom book data entry identified by its primary key (pk).
+
+###3. Contributing
+    ## If you'd like to contribute to the project, please fork the repository and submit a pull request with your changes. For detailed information on contributing, please refer to the CONTRIBUTING.md file.
+
+License
+    ## This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+    ## For any questions or feedback, please contact vishalrajmehra95@gmail.com
+
+
+This `README.md` file now includes all the necessary details for setting up and running the project, as well as the available API endpoints and their usage examples. Adjust the email address and any other specific details as needed.
+
+
+
