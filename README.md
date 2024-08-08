@@ -22,8 +22,7 @@ BookHub is a web application designed to help users discover and explore books. 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/bookhub.git
-cd bookhub
+https://github.com/vishalraj9102/Book-Recommendations-System.git
 
 ### 1. Apply Migrations
 Apply the initial database migrations to set up the database schema.
