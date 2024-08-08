@@ -1,4 +1,4 @@
-Here's an enhanced version of your `README.md` file with added icons to make it more interactive and visually appealing:
+Here's the updated `README.md` file with the admin credentials included:
 
 ---
 
@@ -64,6 +64,10 @@ python manage.py runserver
 
 - 🔑 For Admin access, go to `http://127.0.0.1:8000/admin/`.
 
+  - **Admin Credentials**:
+    - **Username**: `vishalraj`
+    - **Password**: `vishal@8341`
+
 ## 🔗 API Endpoints
 
 ### **📚 BookViewSet Endpoints**
@@ -120,4 +124,4 @@ For any questions or feedback, please contact [vishalrajmehra95@gmail.com](mailt
 
 ---
 
-This version of the `README.md` file incorporates icons to make it more engaging and visually appealing. It enhances the readability and organization of the content while adding a professional touch.
+This version of the `README.md` file now includes the admin credentials, making it easier for others to access the admin interface during development or testing.
