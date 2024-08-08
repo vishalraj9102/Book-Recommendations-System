@@ -24,3 +24,22 @@ BookHub is a web application designed to help users discover and explore books. 
 ```bash
 git clone https://github.com/yourusername/bookhub.git
 cd bookhub
+
+### 1. Apply Migrations
+Apply the initial database migrations to set up the database schema.
+- python manage.py migrate
+
+### 2.Create a Superuser
+(Optional) Create a superuser to access the Django admin interface.
+- python manage.py createsuperuser
+
+### 3.Run the Development Server
+Start the Django development server to run the application locally.
+- python manage.py runserver
+
+### 3.Run the Development Server
+Access the Application
+- Open your browser and navigate to http://127.0.0.1:8000/ to view the application.
+
+For Admin
+- Open your browser and navigate to http://127.0.0.1:8000/admin/ to view the application.
