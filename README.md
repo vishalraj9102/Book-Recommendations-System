@@ -122,11 +122,6 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 For any questions or feedback, please contact [vishalrajmehra95@gmail.com](mailto:vishalrajmehra95@gmail.com).
 
-![BookHub Screenshot](book_recommendations\assets\images\img1.png)
-
-
-
-
 
 ---
 
